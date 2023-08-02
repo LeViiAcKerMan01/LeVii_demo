@@ -4,4 +4,7 @@ int main(){
     int A,B;
     int i=1;
     scanf("%d", &t);
+    while(i<=t){
+        
+    }
 }

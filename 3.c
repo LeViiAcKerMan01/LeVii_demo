@@ -14,6 +14,9 @@ int main(){
         else if(Z%Y==0){
             printf("DUCK\n");
         }
+        else{
+            printf("NONE\n");
+        }
 
     }
 }

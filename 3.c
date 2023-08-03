@@ -6,8 +6,9 @@ int main(){
     while(t--){
         scanf("%d %d %d", &X, &Y, &Z);
         if(Z%X==0 && Z%Y==0){
-            printf("")
+            printf("ANY\n");
         }
+        else if(Z%X==0)
 
     }
 }

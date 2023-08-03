@@ -8,7 +8,9 @@ int main(){
         if(Z%X==0 && Z%Y==0){
             printf("ANY\n");
         }
-        else if(Z%X==0)
+        else if(Z%X==0){
+            printf("CHICKEN\n");
+        }
 
     }
 }

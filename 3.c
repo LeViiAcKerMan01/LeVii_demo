@@ -11,7 +11,9 @@ int main(){
         else if(Z%X==0){
             printf("CHICKEN\n");
         }
-        else if(Z%Y==0)
+        else if(Z%Y==0){
+            printf("DUCK\n");
+        }
 
     }
 }

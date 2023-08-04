@@ -11,7 +11,10 @@ int main(){
         else if((X+1)%3==0){
             printf("%d\n", 1);
         }
-
+        else if((X+2)%3==0){
+            printf("%d\n", 2);
+        }
+        
     }
 
 }

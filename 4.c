@@ -6,7 +6,10 @@ int main(){
     while(t--){
         scanf("%d", &X);
         if(X%3==0){
-            printf("%d", 0);
+            printf("%d\n", 0);
+        }
+        else if((X+1)%3==0){
+            printf("%d\n", 1);
         }
 
     }

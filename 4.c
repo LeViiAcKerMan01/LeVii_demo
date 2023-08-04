@@ -3,5 +3,8 @@ int main(){
     int t;
     int X;
     scanf("%d", &t);
-    
+    while(t--){
+        
+    }
+
 }

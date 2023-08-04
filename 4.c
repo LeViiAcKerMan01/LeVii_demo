@@ -14,7 +14,11 @@ int main(){
         else if((X+2)%3==0){
             printf("%d\n", 2);
         }
-        
+        else{
+            printf("No Solution!\n");
+        }
+
     }
+    return 0;
 
 }

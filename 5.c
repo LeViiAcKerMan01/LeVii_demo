@@ -1,25 +1,26 @@
-#include <stdio.h>
 
-int main() {
+#include<stdio.h>
+int main()
+{
     int t;
     int N,X;
+    int i=1;
     scanf("%d", &t);
-    while(t--){
-       scanf("%d %d", &N, &X);
-       int b=N-X;
-       if(b>X){
-           printf("%d\n", &X);
-           
-       }
-       else if(X>b){
-           printf("%d\n", N-X);
-       }
-       else if(X=b){
-           printf("%d\n", 0);
-       }
-       else{
-        printf("OK!");
-       }
+    while(i<=t){
+        int B=N-X;
+        scanf("%d %d %d", &N, &X, &B);
+
+        if(B>X){
+            printf("%d\n", X);
+        }
+        else if(X>B){
+            printf("%d\n", B);
+        }
+        else{
+            printf("%d\n", 0);
+        }
+        i=i+1;
     }
     return 0;
 }
+// Ohh my Godd ye kya bna dia maine!!!

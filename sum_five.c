@@ -6,6 +6,7 @@ int main()
 {
     int n,a,A,b,B,c,C,d,D,F;
     scanf("%d", &n);
+
     if(n>=10000 && A>=1000)
     {
         a=n/10000;

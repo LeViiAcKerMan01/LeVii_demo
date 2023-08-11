@@ -65,26 +65,13 @@ int main()
             printf("%d\n", F);
 
         }
-
-        
-    }
-    else if(n>=10000 && A<10)
+    else if(A<1000 && B<10)
     {
-        a=n/10000;
-        A=n%10000;
-        printf("%d\n", a);
-        printf("%d\n", A);
-
-
-        b=A/1;
-        B=A%1;
-        printf("%d\n", b);
-        printf("%d\n", B);
-        
-            F=a+b;
-            printf("%d\n", F);
         
 
+    }
+
+        
     }
 
     

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
  
  
 int main()
@@ -11,9 +10,13 @@ int main()
     for(i=0; i<n; i++)
     {
         scanf("%d\t", &a[i]);
+        
+    }
+    for(i=0; i<n; i++)
+    {
         sum+=a[i];
     }
-    printf("%d\n",sum);
+    printf("%d\n", sum);
  
     return 0;
 }

@@ -13,6 +13,7 @@ int main()
         scanf("%d\t", &a[i]);
         sum+=a[i];
     }
+    printf("%d\n",sum);
  
     return 0;
 }

@@ -5,13 +5,12 @@
 int main()
 {
     int t,n;
-    int i=1;
-    int a[n];
+    int i;
+    int a[]={2,3,4,5,6,7};
     scanf("%d\n", &t);
 
-    while(i<=t){
-        scanf("%d\t", a[n-1]);
-        i=i++;
+    for(i=0; i<t; i++){
+        printf("%d\t", a[i]);
     }
     return 0;
     }

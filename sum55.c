@@ -7,15 +7,19 @@ int main()
     int a,b,c;
 
     scanf("%d", &n);
-    a=n/10000;
-    b=a/1000;
-    c=b/100;
+   // a=n/10000;
+   // b=a/1000;
+     
+   // c=a+b;
     
-    if(a>=1 && b>=1){
+    if(a>=1 && b>1){
+        a=n/10000;
+        b=a/1000;
+     
+        c=a+b;
         
         
-        
-        printf("%d\n", a+b);
+        printf("%d\n", c);
     }
     
     return 0;

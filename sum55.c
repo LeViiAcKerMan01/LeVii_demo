@@ -4,5 +4,6 @@
 
 int main()
 {
-    
+    int n,a,A,b,B,c,C,d,D,e,E,F;
+    return 0;
 }

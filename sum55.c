@@ -4,17 +4,16 @@
 int main()
 {
     int n;
-    int a,b;
-   
-    
+    int a,b,c;
+
     scanf("%d", &n);
-    
-    
-    if(a>=1 && b>=1){
-        a=n/10000;
-        b=a/1000;
+    a=n/10000;
+    b=a%1000;
+    c=b/100;
+    if(a>=1 && b>=1 && c>=1){
         
-        printf("%d\n", a+b);
+        
+        printf("%d\n", a+b+c);
     }
     
     return 0;

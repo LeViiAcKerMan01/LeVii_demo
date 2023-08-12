@@ -8,12 +8,14 @@ int main()
 
     scanf("%d", &n);
     a=n/10000;
-    b=a%1000;
+    b=a/1000;
     c=b/100;
-    if(a>=1 && b>=1 && c>=1){
+    
+    if(a>=1 && b>=1){
         
         
-        printf("%d\n", a+b+c);
+        
+        printf("%d\n", a+b);
     }
     
     return 0;

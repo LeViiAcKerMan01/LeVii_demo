@@ -7,7 +7,11 @@ int main()
     int n,a,A,b,B,c,C,d,D,F;
     scanf("%d", &n);
 
-    if(n>10000 && A>=1000)
+    if(n==10000){
+        printf("%d\n", 1);
+    }
+
+    else if(n>10000 && a>=1)
     {
         a=n/10000;
         A=n%10000;
@@ -19,7 +23,7 @@ int main()
         printf("%d\n", b);
         printf("%d\n", B);
         
-        if(B>=100 && C>=10)
+        if(B>=100 && c>=1)
         {
         c=B/100;
         C=B%100;
@@ -55,14 +59,14 @@ int main()
         printf("%d\n", c);
         printf("%d\n", C);
 
-        if(B<=10)
+        if(B>=10)
         {
-            c=B/1;
-            C=B%1;
+            c=B/10;
+            C=B%10;
             printf("%d\n", b);
             printf("%d\n", B);
             
-            F=A+B+c;
+            F=a+b+c;
             printf("%d\n", F);
 
         }

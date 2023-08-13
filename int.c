@@ -5,13 +5,13 @@ int main()
 {
 
     int A,B,t;
-    int i;
-    scanf("%d\n",t);
+    int i=1;
+    scanf("%d", &t);
     while(i<=t)
     {
         scanf("%d %d", &A , &B);
         printf("%d\n", A+B);
-        i=i++;
+        i=i+1;
     }
     return 0;
 }

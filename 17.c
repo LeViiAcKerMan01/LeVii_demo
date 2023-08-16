@@ -11,7 +11,7 @@ int main()
     printf("Enter your Name:");
     scanf("%[^\n]s", N);
     printf("enter your age:");
-    scanf("%d", &age);
+    scanf("%d\n", &age);
     printf("Enter your academy:");
     scanf("%[^\n]s", str);
     printf("Your name is %s\n", N);

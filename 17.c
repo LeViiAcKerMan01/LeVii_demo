@@ -9,14 +9,14 @@ int main()
     int age;
     
     printf("Enter your Name:");
-    scanf("%s\n", N);
+    scanf("%[^\n]s", N);
     printf("enter your age:");
-    scanf("%d\n", &age);
+    scanf("%d", &age);
     printf("Enter your academy:");
-    scanf("%s\n", str);
+    scanf("%[^\n]s", str);
     printf("Your name is %s\n", N);
     printf("You are %d years old\n", age);
-    printf("Your academy goes by the name", str);
+    printf("Your academy goes by the name %s", str);
 
     return 0;
 

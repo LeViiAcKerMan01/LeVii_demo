@@ -15,7 +15,8 @@ int main()
     scanf("%s", B);
     strcat(A, B);
     printf("%s\n", A);
-    printf("%d\n", strlen(A));//strlen() for the length of the string!
-    printf("%f\n", strlen(A)/5);
+    printf("%d\n", strlen(A));     //strlen() for the length of the string!
+    int c=strlen(A);
+    printf("%d\n", c/5);
     return 0; 
 } 
